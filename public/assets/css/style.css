@@ -5,7 +5,7 @@
 :: Template Author URI: hridoy1272@gmail.com
 :: Version: 1.0.0
 :: Created: 01 Jan 2021
-************************************************************ 
+************************************************************
 *
 *
 ******* :: INDEX OF CSS :: *******
@@ -34,7 +34,7 @@
 /* ******************************
 :: 1.0 WEB FONTS
 ****************************** */
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap");
 
 /* ******************************
 :: 2.0 IMPORT ALL CSS
@@ -60,7 +60,7 @@
 }
 
 body {
-    font-family: 'Quicksand', sans-serif;
+    font-family: "Quicksand", sans-serif;
     font-size: 14px;
     line-height: 24px;
     font-weight: 500;
@@ -137,7 +137,7 @@ a {
 
 a:hover,
 a:focus {
-    color: #3B0BF7;
+    color: #3b0bf7;
 }
 
 a,
@@ -198,7 +198,8 @@ img {
     opacity: 0.5;
 }
 
-.table td, .table th {
+.table td,
+.table th {
     vertical-align: middle;
 }
 
@@ -224,7 +225,7 @@ img {
 }
 
 .text-primary {
-    color: #3B0BF7 !important;
+    color: #3b0bf7 !important;
 }
 
 .text-secondary {
@@ -331,7 +332,7 @@ img {
 .btn {
     font-size: 18px;
     font-weight: 600;
-    background-color: #FF6B17;
+    background-color: #ff6b17;
     color: #fff;
     line-height: 1;
     text-align: center;
@@ -347,7 +348,7 @@ img {
 .btn:focus,
 .btn:active,
 .btn.active {
-    background-color: #FF8D4E;
+    background-color: #ff8d4e;
     color: #fff;
     -webkit-box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
@@ -388,14 +389,14 @@ img {
 
 .service-btn::before {
     position: absolute;
-    content: '';
+    content: "";
     height: 2px;
     width: 100%;
     background-color: #222222;
     border-radius: 4px;
     bottom: 0;
     left: 0;
-    -webkit-transform: scaleX(0);
+    -webkit-transform: ;
     transform: scaleX(0);
     -webkit-transform-origin: right;
     transform-origin: right;
@@ -403,14 +404,17 @@ img {
     transition: -webkit-transform 0.3s ease-in 0s;
     transition: transform 0.3s ease-in 0s;
     transition: transform 0.3s ease-in 0s, -webkit-transform 0.3s ease-in 0s;
+    -moz-transform: ;
+    -ms-transform: ;
+    -o-transform: ;
 }
 
 .service-btn::after {
     position: absolute;
-    content: '';
+    content: "";
     height: 2px;
     width: 100%;
-    background-color: #3B0BF7;
+    background-color: #3b0bf7;
     border-radius: 4px;
     bottom: 0;
     left: 0;
@@ -487,7 +491,7 @@ img {
 
 .bg-overlay::after {
     position: absolute;
-    content: '';
+    content: "";
     height: 100%;
     width: 100%;
     top: 0;
@@ -495,7 +499,7 @@ img {
 }
 
 .bg-overlay::after {
-    background: #3B0BF7;
+    background: #3b0bf7;
     opacity: 0.95;
     z-index: -1;
 }
@@ -510,11 +514,11 @@ img {
 }
 
 .bg-dark {
-    background-color: #111111 !important;
+    background-color: #222831 !important;
 }
 
 .bg-indigo {
-    background-color: #3B0BF7;
+    background-color: #4c2a85;
 }
 
 .bg-inherit {
@@ -523,15 +527,18 @@ img {
 
 /*BACKGROUND IMAGES*/
 .welcome-area {
-    background: rgba(0, 0, 0, 0) url("../img/bg/welcome_bg.png") no-repeat fixed center center / cover;
+    background: rgba(0, 0, 0, 0) url("../img/bg/welcome_bg.png") no-repeat fixed
+        center center / cover;
 }
 
 .breadcrumb-area {
-    background: rgba(0, 0, 0, 0) url("../img/bg/inner_bg.jpg") no-repeat fixed center center / cover;
+    background: rgba(0, 0, 0, 0) url("../img/bg/inner_bg.jpg") no-repeat fixed
+        center center / cover;
 }
 
 .preview .welcome-area {
-    background: rgba(0, 0, 0, 0) url("../img/bg/preview_bg.jpg") no-repeat fixed center center / cover;
+    background: rgba(0, 0, 0, 0) url("../img/bg/preview_bg.jpg") no-repeat fixed
+        center center / cover;
 }
 
 /* ******************************
@@ -686,7 +693,6 @@ img {
 }
 
 @-webkit-keyframes animated-letters {
-
     0%,
     75%,
     100% {
@@ -704,7 +710,6 @@ img {
 }
 
 @keyframes animated-letters {
-
     0%,
     75%,
     100% {
@@ -789,8 +794,8 @@ header {
     background-color: #fff;
     -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 20px;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 20px;
-    -webkit-transition: all .15s ease-out 0s !important;
-    transition: all .15s ease-out 0s !important;
+    -webkit-transition: all 0.15s ease-out 0s !important;
+    transition: all 0.15s ease-out 0s !important;
 }
 
 .navbar-sticky.hidden {
@@ -871,7 +876,7 @@ header {
 
 .nav-link > i {
     font-size: 1.5rem;
-    color: #3B0BF7;
+    color: #3b0bf7;
 }
 
 .nav-link-item small {
@@ -880,7 +885,7 @@ header {
 }
 
 .navbar-expand .navbar-nav .nav-link:hover {
-    color: rgba(255, 255, 255, .75);
+    color: rgba(255, 255, 255, 0.75);
 }
 
 .navbar-expand.navbar-sticky .navbar-nav .nav-link,
@@ -918,8 +923,8 @@ header {
     opacity: 1;
     -webkit-transition-timing-function: ease;
     transition-timing-function: ease;
-    -webkit-transition-duration: .4s;
-    transition-duration: .4s;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
     -webkit-transition-property: opacity, -webkit-transform;
     transition-property: opacity, -webkit-transform;
     transition-property: opacity, transform;
@@ -999,8 +1004,8 @@ header {
 }
 
 .modal.fade .modal-dialog.dialog-animated {
-    -webkit-transform: translate(100%, 0)scale(1);
-    transform: translate(100%, 0)scale(1);
+    -webkit-transform: translate(100%, 0) scale(1);
+    transform: translate(100%, 0) scale(1);
     -webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
     box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
     height: 100%;
@@ -1185,7 +1190,7 @@ header {
 :: 9 PROMO AREA CSS
 **************************************/
 .single-promo > i {
-    background: #3B0BF7;
+    background: #3b0bf7;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -1204,7 +1209,7 @@ header {
 
 .promo-area.promo-2 .single-promo:hover {
     transform: translateY(-10px);
-    box-shadow: 0 1rem 3rem rgba(31, 45, 61, .125) ;
+    box-shadow: 0 1rem 3rem rgba(31, 45, 61, 0.125);
 }
 
 .promo-area.promo-2.no-hover .single-promo:hover {
@@ -1220,7 +1225,7 @@ header {
 }
 
 .content-area .content-icon > svg {
-    color: #3B0BF7;
+    color: #3b0bf7;
 }
 
 .single-content-list span {
@@ -1254,8 +1259,8 @@ header {
     font-size: 16px;
     border-radius: 100px;
     text-indent: 3%;
-    -webkit-box-shadow: 0 1px 6px 0 rgba(32, 33, 36, .28);
-    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, .28);
+    -webkit-box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
 }
 
 .domain-form button {
@@ -1287,7 +1292,7 @@ header {
 
 .single-domain-type::after {
     position: absolute;
-    content: '';
+    content: "";
     height: 70%;
     width: 1px;
     background-color: #ffffff;
@@ -1332,12 +1337,12 @@ header {
 
 .features-area .nav-tabs .nav-link::after {
     position: absolute;
-    content: '';
+    content: "";
     height: 2px;
     width: 0;
     bottom: -1px;
     left: 50%;
-    background-color: #3B0BF7;
+    background-color: #3b0bf7;
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
     border-top-left-radius: 6px;
@@ -1350,7 +1355,7 @@ header {
 
 .features-area .nav-tabs .nav-link.active {
     background-color: transparent;
-    color: #3B0BF7;
+    color: #3b0bf7;
 }
 
 .features-area .nav-tabs .nav-link.active::after {
@@ -1361,7 +1366,7 @@ header {
 
 @media (max-width: 767px) {
     .features-area .nav-tabs .nav-link {
-        padding: .5rem;
+        padding: 0.5rem;
     }
 }
 
@@ -1454,20 +1459,20 @@ header {
 .price-header .badge-warning {
     font-size: 14px;
     color: #fff;
-    background-color: #FF6B17;
+    background-color: #ff6b17;
     padding: 0.8em 1em;
 }
 
 .featured .price-header .badge-warning,
 .featured .btn {
-    background-color: #3B0BF7;
+    background-color: #3b0bf7;
 }
 
 .featured .btn:hover,
 .featured .btn:focus,
 .featured .btn:active,
 .featured .btn.active {
-    background-color: #3B0BF7;
+    background-color: #3b0bf7;
 }
 
 .plan-cost .plan-price {
@@ -1484,8 +1489,8 @@ header {
 }
 
 .single-price-plan .plan-features li::before {
-    content: '\f00c';
-    font-family: 'Font Awesome 5 Free';
+    content: "\f00c";
+    font-family: "Font Awesome 5 Free";
     font-size: 12px;
     font-weight: 900;
     color: #444;
@@ -1556,15 +1561,15 @@ header {
     transform: translateY(-50%);
     font-size: 18px;
     font-weight: 900;
-    font-family: 'Font Awesome 5 Free';
+    font-family: "Font Awesome 5 Free";
 }
 
 .card-header .btn::after {
-    content: '\f107';
+    content: "\f107";
 }
 
 .card-header .btn.collapsed::after {
-    content: '\f105';
+    content: "\f105";
 }
 
 .faq-area.style-two .card-header .btn::after {
@@ -1587,7 +1592,8 @@ header {
     -webkit-transition: background-color, -webkit-transform 0.3s ease-in-out 0s;
     transition: background-color, -webkit-transform 0.3s ease-in-out 0s;
     transition: background-color, transform 0.3s ease-in-out 0s;
-    transition: background-color, transform 0.3s ease-in-out 0s, -webkit-transform 0.3s ease-in-out 0s;
+    transition: background-color, transform 0.3s ease-in-out 0s,
+        -webkit-transform 0.3s ease-in-out 0s;
     z-index: 1;
 }
 
@@ -1621,9 +1627,9 @@ header {
 }
 
 .review-area .owl-carousel button.owl-dot.active {
-    background-color: #3B0BF7;
-    -webkit-box-shadow: 0 1px 5px #3B0BF7;
-    box-shadow: 0 1px 5px #3B0BF7;
+    background-color: #3b0bf7;
+    -webkit-box-shadow: 0 1px 5px #3b0bf7;
+    box-shadow: 0 1px 5px #3b0bf7;
 }
 
 @media (max-width: 575px) {
@@ -1658,13 +1664,13 @@ header {
 
 @keyframes growing {
     0% {
-        box-shadow: 0 0 0 0 rgba(89,0,255,0.5);
+        box-shadow: 0 0 0 0 rgba(89, 0, 255, 0.5);
     }
     70% {
-        box-shadow: 0 0 0 25px rgba(89,0,255,0);
+        box-shadow: 0 0 0 25px rgba(89, 0, 255, 0);
     }
     100% {
-        box-shadow: 0 0 0 0 rgba(89,0,255,0);
+        box-shadow: 0 0 0 0 rgba(89, 0, 255, 0);
     }
 }
 
@@ -1673,13 +1679,13 @@ header {
     position: absolute;
     width: 1.5rem;
     height: 1.5rem;
-    background-color: #3B0BF7;
+    background-color: #3b0bf7;
     border-radius: 50%;
-    -webkit-transition: all .4s ease;
-    transition: all .4s ease;
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-    box-shadow: 0 1px 5px rgba(89,0,255,0.8);
+    box-shadow: 0 1px 5px rgba(89, 0, 255, 0.8);
     -webkit-animation: growing 3s infinite;
     animation: growing 3s infinite;
 }
@@ -1689,7 +1695,8 @@ header {
     animation: none;
     -webkit-transform: translate(-50%, -50%) scale3D(1.35, 1.35, 1);
     transform: translate(-50%, -50%) scale3D(1.35, 1.35, 1);
-    -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16),
+        0 3px 6px rgba(0, 0, 0, 0.23);
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 }
 
@@ -1819,7 +1826,7 @@ header {
 }
 
 .link-hover:hover {
-    border-color: rgba(255, 255, 255, .5);
+    border-color: rgba(255, 255, 255, 0.5);
 }
 
 .footer-area .social-icons a {
@@ -1827,7 +1834,7 @@ header {
 }
 
 .footer-area .footer-bottom {
-    background-color: rgba(0, 0, 0, .25);
+    background-color: rgba(0, 0, 0, 0.25);
 }
 
 .dark .footer-area .copyright-area {
@@ -1840,4 +1847,23 @@ header {
 
 .blog .footer-area .footer-bottom {
     border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+/* Custom Dashboard Styles */
+.dashboard-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.dashboard-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+}
+
+.dashboard-table {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
 }

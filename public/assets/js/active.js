@@ -31,8 +31,8 @@
     });
 
     // :: 2.0 TOOLTIP ACTIVE CODE
-    $(document).ready(function(){
-      $('.plan-list').tooltip();
+    $(document).ready(function () {
+        $('.plan-list').tooltip();
     });
 
     // :: 3.0 NAVIGATION MENU ACTIVE CODE
@@ -144,9 +144,9 @@
 
     // :: 11.0 DATA CENTER ACTIVE CODE
     tippy('[data-tippy-content]', {
-      animation: 'scale',
-      maxWidth: 250,
-      arrow: true
+        animation: 'scale',
+        maxWidth: 250,
+        arrow: true
     });
 
     // :: 12.0 REVIEWS ACTIVE CODE
@@ -154,7 +154,7 @@
         items: 1,
         loop: true,
         margin: 40,
-        autoplay:true,
+        autoplay: true,
         nav: false,
         dots: true,
         smartSpeed: 1000
