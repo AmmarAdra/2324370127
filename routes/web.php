@@ -55,5 +55,5 @@ Route::middleware('auth')->group(function () {
     // Rute untuk menyimpan tiket baru dari form
     Route::post('/bantuan', [BantuanKlienController::class, 'store'])->name('bantuan.store');
 });
-
+// Tambahkan komentar ini untuk memicu deploy baru di Railway
 require __DIR__.'/auth.php';
